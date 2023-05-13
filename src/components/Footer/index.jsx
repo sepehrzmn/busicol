@@ -30,7 +30,7 @@ const ListFooter = ({ data, title }) => (
       {data.map((item) => (
         <li
           key={item.caption}
-          className="text-[#C7C7C7] text-sm leading-11 md:leading-[42px]"
+          className="text-[#C7C7C7] text-sm leading-[42px]"
         >
           {item?.path ? (
             <a href={item.path} className="hover:text-custom-gray duration-200">
@@ -55,14 +55,14 @@ const Footer = () => {
         <ListFooter data={footer.address} title={"Address"} />
       </div>
       <div className="bg-[#1F1F1F] py-[30px]">
-        <div className="container text-center">
+        <p className="container text-center text-xs sm:text-base">
           Copyright ©{new Date().getFullYear()} All rights reserved | This
           template is made with by <FontAwesomeIcon icon={faHeart} />
           <a href={"/#"} className="text-custom-gray">
             {" "}
             Colorlib
           </a>
-        </div>
+        </p>
       </div>
     </footer>
   );

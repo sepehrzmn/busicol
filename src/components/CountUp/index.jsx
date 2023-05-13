@@ -20,7 +20,7 @@ const CountUp = () => {
           </span>
         </div>
         <div className="w-full lg:w-1/3 mb-6 lg:mb-0">
-          <h3 className="text-4xl lg:text-5xl pb-5 text-[#2C2C2C]">
+          <h3 className="text-4xl lg:text-5xl text-[#2C2C2C]">
             <LCountUp start={0} end={95} duration={10} suffix="%" />
           </h3>
           <span className="text-sm lg:text-base block mt-4 text-[#919191]">
